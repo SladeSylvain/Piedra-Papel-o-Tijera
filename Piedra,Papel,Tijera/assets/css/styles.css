@@ -1,71 +1,89 @@
+
 body{
     background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);    text-align: center;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);    
+    text-align: center;
     font-family: cursive;
-    color:darkblue
-    
-
-
+    color:darkblue;
+    margin: px;
 }
 
 header{
     font-size: 30px;
     margin:0%;
-
 }
 
 .VS{
     display: inline;
     margin-right: 10px;
     text-align: center;
-    font-size: 50px;
+    font-size: 30px;
 }
 
-
 .usuario{
-
     color:darkblue;
-   
-    
 }
 
 .pc{
-
     color:darkblue;
-    
 }
 
 .user{
     float: left;
+    
 }
 
 .computer{
     float: right;
 }
 
-
-
 .img_usuario{
     float: left;
     display: inline;
-
+    width: 200px;
 }
 
 .imgpc{
     float:right;
     display: inline;
+    width: 200px;
 }
-
-
 
 .piedra{
     color: aliceblue;
     float: left;
+    width: 100px;
+    height: 150px;
+    margin-left: 400px;
 }
 .papel{
     color: aliceblue;
+    width: 100px;
+    height: 150px;
 }
 .tijera{
     color: aliceblue;
     float: right;
+    width: 100px;
+    height: 150px;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+.game{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+.botonton{
+    text-align: center;
+    display: center;
+    margin-left: 400px;
+    margin-right: 400px;
 }
