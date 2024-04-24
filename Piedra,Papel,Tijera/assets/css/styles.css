@@ -1,89 +1,107 @@
-
 body{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,121,9,1) 0%, rgba(12,124,123,1) 0%, rgba(12,114,150,1) 6%, rgba(93,109,142,1) 24%, rgba(1,129,237,1) 50%, rgba(25,151,217,1) 76%, rgba(25,1,242,1) 94%, rgba(0,212,255,1) 100%);    
+    
     text-align: center;
-    font-family: cursive;
+    font-family:Arial, Helvetica, sans-serif;
     color:darkblue;
-    margin: px;
+   
+    
+
+
+}
+
+h1{
+    font-size: 50px;
+    
 }
 
 header{
     font-size: 30px;
-    margin:0%;
+    
+
 }
 
 .VS{
     display: inline;
     margin-right: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
+    
 }
 
+
 .usuario{
+
     color:darkblue;
+   
+    
 }
 
 .pc{
+
     color:darkblue;
+    
 }
 
 .user{
     float: left;
-    
+    text-align: center;
 }
 
 .computer{
     float: right;
+    text-align: center;
 }
+
+
 
 .img_usuario{
     float: left;
     display: inline;
-    width: 200px;
+    margin-left: 200px;
+
 }
 
 .imgpc{
     float:right;
     display: inline;
-    width: 200px;
+    margin-right: 200px;
+    margin-top: 20px;
+    
 }
+
+
 
 .piedra{
     color: aliceblue;
     float: left;
-    width: 100px;
-    height: 150px;
-    margin-left: 400px;
+    
 }
 .papel{
     color: aliceblue;
-    width: 100px;
-    height: 150px;
 }
 .tijera{
     color: aliceblue;
     float: right;
-    width: 100px;
-    height: 150px;
 }
 
-.container{
-    margin-left: 100px;
-    margin-right: 100px;
 
-}
 
-.game{
+#puntosUsuario{
+    text-align: center;
     margin-left: 200px;
+}
+
+#puntosCPU{
+    text-align: center;
     margin-right: 200px;
 }
 
+#puntosUsuario{
+    font-weight: bolder;
+}
 
-
-.botonton{
-    text-align: center;
-    display: center;
-    margin-left: 400px;
-    margin-right: 400px;
+#puntosCPU{
+    font-weight: bolder;
 }

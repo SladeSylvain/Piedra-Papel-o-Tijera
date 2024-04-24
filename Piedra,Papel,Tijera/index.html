@@ -3,46 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PiedraPapeloTijera</title>
+    <title>Piedra, Papel o Tijera</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js"></script>
+    <style>
+        .seleccionado {
+            border: 6px solid red;
+        }
+        .puntaje {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header class="header"><h1>Piedra Papel o Tijera</h1></header>
+    <header class="header">
+        <h1><strong><strong>Piedra, Papel o Tijera</strong></strong></h1>
+    </header>
     <hr>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br>
+ 
     <article class="game">
         <section class="user">
-            <img class="img_usuario" src="assets/img/user.jpg" alt="user" width="300">
+            <img class="img_usuario" src="assets/img/user.png" alt="user" width="300">
+            <h2 id="puntosUsuario" class="puntaje"><strong><strong>0</strong></strong></h2>
         </section>
 
-        <p class="VS">VS</p>
+        <p class="VS"><strong><strong>VS</strong></strong></p>
 
-        <section class="computer">
-            <img class="imgpc" src="assets/img/user.jpg" alt="computer" width="300">
+        <section class="computer"margin-top>
+            <img class="imgpc" src="assets/img/Captura_de_pantalla_2024-04-24_150400-removebg-preview (1).png" alt="computer" width="300">
+            <h2 id="puntosCPU" class="puntaje"><strong><strong>0</strong></strong></h2>
         </section>
     </article>
-    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     <hr>
     <article class="container">
-        <img class="piedra" src="assets/img/piedra.jpg" alt="piedra"  >
-        <img class="papel" src="assets/img/papel.jpg" alt="papel" >
-        <img class="tijera" src="assets/img/tijera.jpg" alt="tijera" >
+        <button class="piedra btn btn-transparent" onclick="jugar('piedra')"><img src="assets/img/piedra-remove.png" alt="" width="98"> </button>
+        <button class="papel btn btn-transparent" onclick="jugar('papel')"><img src="assets/img/papell-removebg.png" alt=""></button>
+        <button class="tijera btn btn-transparent" onclick="jugar('tijera')"><img src="assets/img/tijeraa-removebg.png" alt=""></button>
     </article>
     <hr>
-    <footer class="boton">
-        <input type="button" class="btn btn-primary" value="Empezar">
-        <script>
-            $(document).ready(function(){
-                $("#boton").click(function(event){
-                    event.preventDefault(); 
-    
-                    alert("Redireccionando a Google...");
 
-                });
-            });
-        </script>
-    </footer>
 </body>
 </html>
